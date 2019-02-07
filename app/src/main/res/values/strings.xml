@@ -1,0 +1,51 @@
+<resources>
+    <string name="loading_titles">Loading titles</string>
+    <string name="loading_story">Loading story</string>
+    <string name= "application_name">Transcript </string>
+    <string name= "select_text">Select a story </string>
+    <string name="menu_button">Start reading</string>
+    <string name="app_name">Transcript</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="en_englishButton">English</string>
+    <string name="en_germanButton">German</string>
+    <string name="en_title">Blueland</string>
+    <string name="en_script">
+        Behind the blue house in which Blueboy lives, there is the blue ocean. When Blueboy looks out of his window, he can see the clear blue sky and a blue mountain in the distance.
+        \n\n
+        Next to their house there is the fire brigade and in the event of a fire, a blue fire engine will come shooting out of the station.
+        \n\n
+        There are several more houses in the village and a school. Around the market place, in the centre of the village, there are some shops and a church. Half a mile down the main road there are three farms. That\'s all there is in that little village.
+        \n\n
+        You do not need a map if you are looking for a street because there is only one street: The main road.
+        \n\n
+        Once you\'ve found the village you\'ve also found the street you\'re looking for. In Blueland there are five villages and also a real town: Bluetown. Though it is only a small town Bluetown is still the main town in Blueland, because there is no capital city - only five villages and Bluetown and that’s it.
+        \n\n
+        It doesn\’t take much time to travel through Blueland! Life in Blueland is not very exciting. In the morning all the people get up, the children go to school and the adults go to work. In the afternoon they come back home and at night they sleep.
+
+    </string>
+
+    <string name="de_englishButton">Englisch</string>
+    <string name="de_germanButton">Deutsch</string>
+    <string name="de_title">Blauland</string>
+    <string name="de_script">
+        Hinter dem blauen Haus, in dem Blueboy wohnt, ist der blaue Ozean. Wenn Blueboy aus seinem Fenster sieht, kann er den klaren blauen Himmel sehen und einen blauen Berg in der Ferne.
+        \n\n
+        Neben ihrem Haus ist die Feuerwehr und im Falle eines Brandes kommt ein blaues Feuerwehrauto aus dem Feuerwehrhaus geschossen.
+        \n\n
+        Es gibt noch einige Häuser mehr in dem Dorf und eine Schule. Um den Marktplatz herum, im Zentrum des Dorfes, gibt es einige Läden und eine Kirche. Eine halbe Meile die Straße hinunter gibt es drei Bauernhöfe. Das ist alles, was es gibt in dem kleinen Dorf.
+        \n\n
+        Man braucht keine Karte, wenn man nach einer Straße sucht, denn es gibt nur eine Straße: Die Hauptstraße.
+        \n\n
+        Hat man einmal das Dorf gefunden, dann hat man auch die Straße gefunden, nach der man sucht. In Blauland gibt es fünf Dörfer und auch eine echte Stadt: Blaustadt. Obwohl es nur eine kleine Stadt ist, ist Blaustadt die wichtigste Stadt Blaulands, weil es keine Hauptstadt gibt – nur fünf Dörfer und Blaustadt und das war\'s.
+        \n\n
+        Es nimmt nicht viel Zeit in Anspruch, durch Blauland zu reisen! Das Leben in Blauland ist nicht besonders aufregend. Am Morgen stehen alle Leute auf, die Kinder gehen in die Schule und die Erwachsenen zur Arbeit. Am Nachmittag kehren sie nach Hause zurück und in der Nacht schlafen sie.
+    </string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">St6MUmIDEzcAUMxJ7tIB0ZATksdjsa8lrp4kL4Ps</string>
+    <string name="back4app_client_key">LfqbxxbnUtTgGuqA4WlZTVSXMpiYaFkT7pZRqs0r</string>
+    <string name="loadingText">Loading...</string>
+
+</resources>
