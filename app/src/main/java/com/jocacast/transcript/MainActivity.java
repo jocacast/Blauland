@@ -6,8 +6,6 @@ import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.net.Uri;
-import android.support.constraint.ConstraintLayout;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
@@ -15,6 +13,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
 
 
 public class MainActivity extends AppCompatActivity implements Runnable{
@@ -36,8 +35,10 @@ public class MainActivity extends AppCompatActivity implements Runnable{
     private Uri audioUri;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.AppTheme);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         startButton = findViewById(R.id.playButton);
@@ -59,6 +60,7 @@ public class MainActivity extends AppCompatActivity implements Runnable{
         String bundleEnglishTranscript = bundle.getString("englishTranscript");
         String bundleGermanTitle = bundle.getString("germanTitle");
         String bundleEnglishTitle = bundle.getString("englishTitle");
+
 
         Log.d("Bundle", "bundleUri " + bundleAudioUri);
         Log.d("Bundle", "bundleGermanTranscript " + bundleGermanTranscript);
@@ -172,10 +174,13 @@ public class MainActivity extends AppCompatActivity implements Runnable{
             }
             soundSeekBar.setProgress(currentPosition);
         }
+
     }
 
     @Override
     public void onBackPressed() {
+        soundPlayer.stop();
+        soundThread.interrupt();
         Intent intent = new Intent(MainActivity.this, MenuActivity.class);
         startActivity(intent);
     }

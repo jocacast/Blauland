@@ -2,7 +2,7 @@ package com.jocacast.transcript;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -46,6 +46,7 @@ public class MenuActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.AppTheme);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
         spinner = findViewById(R.id.spinner);
@@ -53,13 +54,6 @@ public class MenuActivity extends AppCompatActivity {
         loadingTextView = findViewById(R.id.menuTitle);
         progressBar = findViewById(R.id.progressBar);
         startLoadingStoriesProcess();
-
-        Parse.initialize(new Parse.Configuration.Builder(this)
-                .applicationId(getString(R.string.back4app_app_id))
-                .clientKey(getString(R.string.back4app_client_key))
-                .server(getString(R.string.back4app_server_url))
-                .build()
-        );
 
         try{
             ParseQuery <ParseObject> query = ParseQuery.getQuery("Titles");
